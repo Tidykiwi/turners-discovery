@@ -2,6 +2,8 @@ Mission Ready Advanced Software Developer Accelerator project.
 
 Mission 3 - React/Node/Express single page application that uses the IBM Watson Discovery service to query a specific selection of data.
 
+NOTE: DOES NOT INCLUDE THE .env file with DISCOVERY_APIKEY
+
 COMMANDS TO START APPLICATION...
 
 ./server - npm run dev
