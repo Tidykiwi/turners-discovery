@@ -1,0 +1,23 @@
+h1 {font-size:5vw;}
+
+h2 {font-size:4vw;}
+
+h3 {text-align: center;}
+
+p {text-align: center;
+	padding: 1vw;
+}
+
+header {text-align: center;
+	background-color: #0076be;
+}
+
+#chatbox {padding: 2vw;
+			margin-top: 2vw;
+}
+
+#chatbot {
+	background-color: #0076be;
+}
+
+#logo {margin: 2vw;}

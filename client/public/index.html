@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Turners Search</title>
+  </head>
+  <body>
+    <header class="w3-container w3-indigo role="banner" aria-label="Prime heading">
+      <img class="w3-round" id="logo" src="images/turners_logo.jpg" title="Turners logo" alt="Turners logo" width="50%" >
+    </header>
+    <main class="w3-container w3-white" role="main" aria-label="Main content">   
+      <div id="chatbox" class="w3-content w3-padding-24 s6 w3-card-4" >		
+        <div class="w3-row">
+          <div class="w3-third">
+            <a href="https://www.turners.co.nz/" target="_blank"><img class="w3-hover-opacity" id="lovecars" src="images/turners_01.jpg" title="Turners logo" alt="Turners logo" width="100%" ></a>
+          </div>
+          <div class="w3-twothird">
+            <h4 class="w3-center w3-round w3-padding-24"><span class="w3-tag w3-wide w3-round w3-indigo"><strong>Turners Discovery Search</strong></span></h4>
+            <h3><strong>Ask a question</strong></h3>
+            <!-- REACT APP -->
+            <div class="w3-container" id="root"></div>  
+          </div>
+        </div>
+        <br>
+        <div class="w3-container w3-blue" >
+                   <img id="logo" src="images/turners_happy.jpg" title="Happy couple" alt="Happy couple" width="95%">
+        </div>
+      </div><br><br>
+   </main>
+  </body>
+  <footer class="w3-container w3-indigo" role="contentinfo" aria-label="Copyright">
+    <p class="w3-center w3-padding-24"><strong>©Copyright 2022 by Mission Ready. All rights reserved.</strong></span></p>
+  </footer>
+</html>
