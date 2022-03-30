@@ -1,6 +1,6 @@
-Mission Ready Advanced Software Developer Accelerator project.
+React/Node/Express single page application that uses the IBM Watson Discovery service to query a specific selection of data.
 
-Mission 3 - React/Node/Express single page application that uses the IBM Watson Discovery service to query a specific selection of data.
+Completed during studying 'Advanced Software Development' at Mission Ready, New Zealand.
 
 NOTE: DOES NOT INCLUDE THE .env file with DISCOVERY_APIKEY
 
@@ -10,9 +10,7 @@ COMMANDS TO START APPLICATION...
 
 ./client - npm run start
 
-MISSION 3 BRIEF
-
-If you are in the Advanced Software Developer pathway, complete the following tasks as part of the Mission:
+MISSION BRIEF
 
 The business (Turners Cars) is interested to add AI capabilities to help its customers. Create a prototype showcasing AI Search capability using IBM Watson Discovery. Relate this to Turners Cars by building a prototype that relates to their business. or explain in your Show and Tell how they can use it.
 
